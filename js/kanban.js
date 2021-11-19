@@ -29,6 +29,7 @@ const create_item = () => {
 
 	let input = document.createElement("input");
 	let save_btn = document.createElement("button");
+	save_btn.innerHTML = "save";
 	item.appendChild(input);
 	save_btn.addEventListener("click", () => {
 		error = "";
