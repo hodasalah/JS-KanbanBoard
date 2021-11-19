@@ -32,7 +32,7 @@ const create_item = () => {
 	save_btn.innerHTML = "Save";
 	item.appendChild(input);
 	save_btn.addEventListener("click", () => {
-		error = "";
+		error.innerHTML = "";
 		if (input.value !== "") {
 			order = order + 1;
 			item.innerHTML = input.value;
